@@ -8,8 +8,6 @@ import reversi from "../assets/img/project/reversi.png";
 import resume_screener from "../assets/img/project/resume_screener.png";
 import smart_safty_helmet from "../assets/img/project/smart_safty_helmet.png";
 import stock_manage from "../assets/img/project/stock_manage.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -21,41 +19,49 @@ export const Projects = () => {
       title: "A Platform Shooter Game",
       description: "A fun to Play Platform shooter game along with a level editor for the game",
       imgUrl: platform_shooter,
+      link: "https://github.com/AkshatKumar38/Platform-Shooter-Game",
     },
     {
       title: "Budget Buddy",
       description: "A Group Expenses Management Website",
       imgUrl: budget_buddy,
+      link: "https://github.com/AkshatKumar38/Budget-Buddy",
     },
     {
       title: "Conway's Game of Life",
       description: "A recreation of THe Conway's game of life for Personal Enjoyment",
       imgUrl: game_of_life,
+      link: "https://github.com/AkshatKumar38/Conway-s-Game-of-Life-Python-Game",
     },
     {
       title: "Smart Safety Helmet Wesbite",
       description: "A Website display the use of Our Smart Helmet for Miner Saftey",
       imgUrl: smart_safty_helmet,
+      link: "https://github.com/AkshatKumar38/Final-Helmet",
     },
     {
       title: "Reversi AI Game",
       description: "A fun Board Game to play when Bored",
       imgUrl: reversi,
+      link: "https://github.com/AkshatKumar38/Reversi-AI-Game",
     },
     {
       title: "Snake AI Game",
       description: "A fun Game to play as well to showcase AI reinforced learning",
       imgUrl: snake_game,
+      link: "https://github.com/AkshatKumar38/Snake-Game",
     },
     {
       title: "Resume Screener Website",
       description: "Website to evaluate resume against key criteria for hiring managers",
       imgUrl: resume_screener,
+      link: "https://github.com/AkshatKumar38/Resume-Screener",
     },
     {
       title: "Inventory Management System",
       description: "Website for workers to fully take control over there inventory system",
       imgUrl: stock_manage,
+      link: "https://github.com/AkshatKumar38/SoftwareProject_InventoryManagementSystem",
     },
   ];
 

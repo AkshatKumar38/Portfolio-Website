@@ -15,12 +15,11 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
-            </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+              <div className="social-icon">
+                <a href="https://www.linkedin.com/in/akshat-kumar-78a206252/"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.instagram.com/akshat_096/"><img src={navIcon3} alt="" /></a>
+              </div>
+            <p>Copyright 2025. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

@@ -35,23 +35,27 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>I’m passionate about leveraging technology to create impactful solutions. Over the years, I’ve honed a diverse set of skills that enable me to tackle challenges across various domains. From front-end design to back-end development and beyond, here’s what I bring to the table<br></br></p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Programming Languages:
+                                JavaScript, Python, Java, C++</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Web Development:
+                                React, HTML, CSS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Backend Development:
+                                  Node.js, Flask, MySQL
+                                </h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>AI, ML and NLP Experience</h5>
                             </div>
                         </Carousel>
                     </div>
